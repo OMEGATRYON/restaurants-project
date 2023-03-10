@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Appetizers() {
+function Dinner() {
     const [data, setData] = useState({ menu: [] });
     
 
@@ -21,7 +21,7 @@ function Appetizers() {
   
     return (
         <ul id="fact" className="text-center container">
-        {data.menu.filter((dog) => dog.category.includes('Appetizer')).map(item => (
+        {data.menu.filter((doggy) => doggy.category.includes('Dinner')).map(item => (
           <div key={item.id} id="appt">
           <h3 id="solocup" className="card-title ">{item.title}</h3>
           <p className="card-text ">{item.description}</p>
@@ -33,4 +33,4 @@ function Appetizers() {
     );
   }
 
-export default Appetizers;
+export default Dinner;
