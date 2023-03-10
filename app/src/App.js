@@ -8,6 +8,8 @@ import Takeout from "./components/Takeout";
 import Footer from "./components/Footer";
 import Breaks from "./components/Middlebreak";
 import Dinner from "./components/Dinner";
+import Appbreak from "./components/Apptbreak";
+import Dinbreak from "./components/Dinnbreak";
 
 
 
@@ -18,8 +20,10 @@ function App() {
         <Header />
         <About />
         <Takeout />
+        <Appbreak />
         <Appetizers />
         <Breaks />
+        <Dinbreak />
         <Dinner />
         <Footer />
       </div>
