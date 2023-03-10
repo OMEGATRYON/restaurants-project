@@ -11,3 +11,84 @@ body {
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
 }
+
+#help {
+    height: 100px;
+    width: 85px;
+}
+
+#fact {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+#solocup {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+#bro {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+}
+
+#opened {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    color: green;
+    font-size: 30px;
+}
+
+#closed {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+}
+
+#space {
+    margin-bottom: 25px;
+}
+
+#footer {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+    padding: 50px;
+}
+
+#dinner1 {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+}
+
+#dinner2 {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+}
+
+#dinner3 {
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    color: red;
+    font-size: 30px;
+}
